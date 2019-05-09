@@ -36,8 +36,7 @@ app.use(mountPath, api);
 
 // Parse Server plays nicely with the rest of your web routes
 app.get('/', function(req, res) {
-  res.sendFile(path.join(__dirname, '/marker.png'));
-  res.sendFile(path.join(__dirname, '/index.html'));  
+  res.sendFile(path.join(__dirname, '/singleApp/'));  
 });
 
 // There will be a test page available on the /test path of your server url

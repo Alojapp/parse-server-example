@@ -1,0 +1,14 @@
+{
+  "apps": [
+    {
+      "serverURL": "https://alojapp.herokuapp.com/parse/",
+      "appId": "myAppId"
+    }
+  ],
+  "users": [
+    {
+      "user":"user1",
+      "pass":"pass"
+    }
+  ]
+}

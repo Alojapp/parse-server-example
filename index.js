@@ -39,6 +39,11 @@ app.get('/', function(req, res) {
   res.sendFile(path.join(__dirname, '/singleApp/'));  
 });
 
+// Parse Server plays nicely with the rest of your web routes
+app.get('/dashboard', function(req, res) {
+  res.sendFile(path.join(__dirname, '/dashboard/'));  
+});
+
 // There will be a test page available on the /test path of your server url
 // Remove this before launching your app
 app.get('/test', function(req, res) {
